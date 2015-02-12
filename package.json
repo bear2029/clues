@@ -10,6 +10,8 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "express": "~4.11.2",
-    "express4-handlebars": "~0.2.0"
+    "express4-handlebars": "~0.2.0",
+    "express-handlebars": "~1.2.1",
+    "autoprefixer": "~5.1.0"
   }
 }

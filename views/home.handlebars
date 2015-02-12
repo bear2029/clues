@@ -1,0 +1,17 @@
+<link type="text/css" rel="stylesheet" href="/public/css/home.css">
+<script src="/public/js/app.js"></script>
+<div class="container-fluid" ng-app="Clues">
+	<div class="steps" ng-controller="StepController as Steps">
+		<div class="intro" ng-controller="CharSelector" ng-show="Steps.isCurrent(0)">
+			<h1>Welcome to Clues online</h1>
+			<h2>choose your favorite character</h2>
+			<ul class="list-inline">
+				<li ng-repeat="(name,char) in chars" class="each-char">
+					<div class="img-circle cropper">
+						<img src="\{{char.url}}" width="150" alt="\{{name}}" />
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

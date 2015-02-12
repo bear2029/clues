@@ -1,0 +1,23 @@
+body{
+}
+.intro{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 600px;
+	height: 400px;
+	margin-left: -300px;
+	margin-top: -200px;
+	background: #fafafa;
+	padding: 30px;
+	box-shadow: 3px 4px 10px 0 rgba(0,0,0,.3);
+	border-radius: 10px;
+}
+.intro .each-char .cropper{
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+.intro .each-char img{
+	height: auto;
+}
